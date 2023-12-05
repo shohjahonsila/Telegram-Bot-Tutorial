@@ -26,7 +26,7 @@ async def sendWiki(message: types.Message):
         respond = wikipedia.summary(message.text)
         await message.answer(respond)
     except:
-        await message.answer("Bu mavzuga oid maqola topilmadi")
+        await message.answer("Bu mavzuga oid maqola topiElmadi")
 
 
 if __name__ == '__main__':
